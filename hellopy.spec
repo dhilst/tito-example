@@ -1,5 +1,5 @@
 Name:           hellopy
-Version:        0.0.3
+Version:        0.0.4
 Release:        1%{?dist}
 Summary:        Testing.
 
@@ -34,6 +34,9 @@ python3 %SRC/setup.py test
 %python3_sitelib/*
 
 %changelog
+* Sun Dec 17 2017 Daniel Hist Selli <danielhilst@gmail.com> 0.0.4-1
+- Fix spec (danielhilst@gmail.com)
+
 * Sun Dec 17 2017 Daniel Hist Selli <danielhilst@gmail.com> 0.0.3-1
 - 
 
