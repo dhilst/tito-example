@@ -1,5 +1,5 @@
 Name:           hellopy
-Version:        0.0.5
+Version:        0.0.6
 Release:        1%{?dist}
 Summary:        Testing.
 
@@ -7,8 +7,8 @@ License:        MIT
 URL:            http://www.example.com
 Source0:        hellopy-%{version}.tar.gz
 
-BuildRequires:  python3, python3-setuptools, python2-setuptools, python-rpm-macros, python3-rpm-macros, python2-rpm-macros
-Requires:       python3, python2
+BuildRequires:  python2, python2-setuptools, python-rpm-macros, python2-rpm-macros
+Requires:       python2
 
 %global debug_package %{nil}
 %define SRC %_builddir/%{name}-%{version}
@@ -21,22 +21,21 @@ Some testing software.
 
 %build
 python2 %SRC/setup.py bdist
-python3 %SRC/setup.py bdist
 
 %check
 python2 %SRC/setup.py test
-python3 %SRC/setup.py test
 
 %install
 %py2_install
-%py3_install
 
 
 %files
 %python2_sitelib/*
-%python3_sitelib/*
 
 %changelog
+* Sun Dec 17 2017 Daniel Hist Selli <danielhilst@gmail.com> 0.0.6-1
+- 
+
 * Sun Dec 17 2017 Daniel Hist Selli <danielhilst@gmail.com> 0.0.5-1
 - Update spec (danielhilst@gmail.com)
 - Port to python2 (danielhilst@gmail.com)
