@@ -1,9 +1,9 @@
-def hello(name: str) -> str:
+def hello(name):
     '''
     >>> hello('daniel')
     'hello daniel'
     '''
-    return f'hello {name}' 
+    return 'hello %s' % name
 
 import doctest
 test = doctest.DocTestSuite()
