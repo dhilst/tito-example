@@ -5,7 +5,7 @@ Summary:        Testing.
 
 License:        MIT
 URL:            http://www.example.com
-Source0:        hellopy.tar.gz
+Source0:        hellopy-%{version}.tar.gz
 
 BuildRequires:  python3 >= 3.6, python3-setuptools, python3-rpm-macros, python-rpm-macros
 Requires:       python3 >= 3.6 
