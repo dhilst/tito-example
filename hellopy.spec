@@ -17,7 +17,7 @@ Requires:       python2
 Some testing software.
 
 %prep
-%setup -q -n %{name}
+%setup -q
 
 %build
 python2 setup.py bdist
