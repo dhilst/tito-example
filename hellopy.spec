@@ -1,5 +1,5 @@
 Name:           hellopy
-Version:        0.0.7
+Version:        0.0.8
 Release:        1%{?dist}
 Summary:        Testing.
 
@@ -33,6 +33,9 @@ python2 setup.py test
 %python2_sitelib/*
 
 %changelog
+* Mon Dec 18 2017 Daniel Hilst Selli <daniel@versatushpc.com.br> 0.0.8-1
+- Update autodock.spec (daniel@versatushpc.com.br)
+
 * Mon Dec 18 2017 Daniel Hilst Selli <daniel@versatushpc.com.br> 0.0.7-1
 - Update autodock.spec (daniel@versatushpc.com.br)
 - Update autodock.spec (daniel@versatushpc.com.br)
