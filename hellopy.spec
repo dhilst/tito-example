@@ -11,13 +11,13 @@ BuildRequires:  python2, python2-setuptools, python-rpm-macros, python2-rpm-macr
 Requires:       python2
 
 %global debug_package %{nil}
-%define SRC %_builddir/%{name}-%{version}
+%define SRC %_builddir/%{name}-%{version}\*
 
 %description
 Some testing software.
 
 %prep
-%setup -q
+%setup -q -n %{name}
 
 %build
 python2 %SRC/setup.py bdist
