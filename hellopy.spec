@@ -20,10 +20,10 @@ Some testing software.
 %setup -q -n %{name}
 
 %build
-python2 %SRC/setup.py bdist
+python2 setup.py bdist
 
 %check
-python2 %SRC/setup.py test
+python2 setup.py test
 
 %install
 %py2_install
