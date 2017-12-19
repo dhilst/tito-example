@@ -24,7 +24,7 @@ mock -r epel-7-x86_64.cfg --install hellopy # Install the package in a brand new
 
 # Demo
 
-<script src="https://asciinema.org/a/1A4Uo8Fl872Kr393VwFYmkJkF.js" id="asciicast-1A4Uo8Fl872Kr393VwFYmkJkF" async></script>
+[![asciicast](https://asciinema.org/a/1A4Uo8Fl872Kr393VwFYmkJkF.png)](https://asciinema.org/a/1A4Uo8Fl872Kr393VwFYmkJkF)
 
 # Configuration
 
