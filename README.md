@@ -36,8 +36,8 @@ mock -r epel-7-x86_64.cfg --install hellopy # Install the package in a brand new
 
 # References:
 
-https://github.com/dgoodwin/tito
-https://github.com/rpm-software-management/mock
-https://fedoraproject.org/wiki/Using_Mock_to_test_package_builds
+- https://github.com/dgoodwin/tito
+- https://github.com/rpm-software-management/mock
+- https://fedoraproject.org/wiki/Using_Mock_to_test_package_builds
 
 
