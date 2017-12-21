@@ -6,6 +6,7 @@ Summary:        Testing.
 License:        MIT
 URL:            http://www.example.com
 Source0:        hellopy-%{version}.tar.gz
+Source1: 	http://localhost:8000/macros.foo
 
 BuildRequires:  python2, python2-setuptools, python-rpm-macros, python2-rpm-macros
 Requires:       python2
@@ -13,16 +14,16 @@ Requires:       python2
 %global debug_package %{nil}
 %define SRC %_builddir/%{name}-%{version}\*
 
+%include %{SOURCE1}
 
 %description
 Some testing software.
 
 %prep
-echo %foo
-%include macro.foo
 %setup -q
 
 %build
+echo %foo
 python2 setup.py bdist
 
 %check
