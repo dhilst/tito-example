@@ -17,7 +17,7 @@ Some testing software.
 
 %prep
 %setup -q
-%include %{builddir}/macros.foo
+%include %{_builddir}/macros.foo
 echo %foo > /tmp/foo.output
 
 %build
