@@ -16,9 +16,9 @@ Requires:       python2
 Some testing software.
 
 %prep
+%setup -q
 %include macros.foo
 echo %foo > /tmp/foo.output
-%setup -q
 
 %build
 python2 setup.py bdist
