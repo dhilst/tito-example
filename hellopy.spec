@@ -13,10 +13,13 @@ Requires:       python2
 %global debug_package %{nil}
 %define SRC %_builddir/%{name}-%{version}\*
 
+
 %description
 Some testing software.
 
 %prep
+echo %foo
+%include macro.foo
 %setup -q
 
 %build
