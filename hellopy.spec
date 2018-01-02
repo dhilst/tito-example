@@ -11,12 +11,11 @@ BuildRequires:  python2, python2-setuptools, python-rpm-macros, python2-rpm-macr
 Requires:       python2
 
 %global debug_package %{nil}
+%include macros.foo
 
 %description
 Some testing software.
 
-%pre
-%include macros.foo
 
 %prep
 %setup -q
