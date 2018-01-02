@@ -6,6 +6,7 @@ Summary:        Testing.
 License:        MIT
 URL:            http://www.example.com
 Source0:        hellopy-%{version}.tar.gz
+Source1:        macros.foo
 
 BuildRequires:  python2, python2-setuptools, python-rpm-macros, python2-rpm-macros
 Requires:       python2
