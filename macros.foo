@@ -1,1 +1,1 @@
-%define foo "FOO MACRO"
+%define foo FOO MACRO
