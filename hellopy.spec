@@ -23,6 +23,7 @@ Some testing software.
 
 %build
 python2 setup.py bdist
+test [ "%foo" == "FOO MACRO"] && echo 'MACRO INCLUDED OKEY!' || exit -1
 
 %check
 python2 setup.py test
