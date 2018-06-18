@@ -1,5 +1,5 @@
 Name:           hellopy
-Version:        0.0.10
+Version:        0.0.11
 Release:        1%{?dist}
 Summary:        Testing.
 
@@ -34,6 +34,35 @@ python2 setup.py test
 %{_bindir}/hello
 
 %changelog
+* Mon Jun 18 2018 Daniel Hilst Selli <daniel@gmail.com> 0.0.11-1
+- Add bin/hello script to spec %%files (daniel@gmail.com)
+- Add bin/hello. (daniel@gmail.com)
+- Testing (daniel@gmail.com)
+- Update spec (daniel@versatushpc.com.br)
+- Update spec (daniel@versatushpc.com.br)
+- Update spec. (daniel@versatushpc.com.br)
+- Update spec. (daniel@versatushpc.com.br)
+- Update macros. (daniel@versatushpc.com.br)
+- Update spec. (daniel@versatushpc.com.br)
+- Update spec. (daniel@versatushpc.com.br)
+- Update spec (daniel@versatushpc.com.br)
+- Update spec (daniel@versatushpc.com.br)
+- Update spec (daniel@versatushpc.com.br)
+- Update spec (daniel@versatushpc.com.br)
+- Update spec (daniel@versatushpc.com.br)
+- Update spec (daniel@versatushpc.com.br)
+- Update spec (daniel@versatushpc.com.br)
+- Update spec (daniel@versatushpc.com.br)
+- Rename macros.foo (daniel@versatushpc.com.br)
+- Update spec (daniel@versatushpc.com.br)
+- Update spec (daniel@versatushpc.com.br)
+- Try %%include (daniel@versatushpc.com.br)
+- Revert "Update README.md" (daniel@versatushpc.com.br)
+- Update README.md (daniel@versatushpc.com.br)
+- Update README.md (daniel@versatushpc.com.br)
+- Add testrepo (daniel@versatushpc.com.br)
+- Update README.md (daniel@versatushpc.com.br)
+
 * Mon Dec 18 2017 Daniel Hilst Selli <daniel@versatushpc.com.br> 0.0.10-1
 - Add config and releasers (daniel@versatushpc.com.br)
 
