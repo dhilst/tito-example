@@ -6,13 +6,11 @@ Summary:        Testing.
 License:        MIT
 URL:            http://www.example.com
 Source0:        hellopy-%{version}.tar.gz
-Source1:        macros.foo
 
 BuildRequires:  python2, python2-setuptools, python-rpm-macros, python2-rpm-macros
 Requires:       python2
 
 %global debug_package %{nil}
-%include %{SOURCE1}
 
 %description
 Some testing software.
@@ -23,7 +21,6 @@ Some testing software.
 
 %build
 python2 setup.py bdist
-[ "%foo" == "FOO MACRO" ] && echo 'MACRO INCLUDED OKEY!' || exit -1
 
 %check
 python2 setup.py test

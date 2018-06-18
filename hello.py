@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 def hello(name):
     '''
     >>> hello('daniel')
@@ -7,3 +9,6 @@ def hello(name):
 
 import doctest
 test = doctest.DocTestSuite()
+
+if __name__ == "__main__":
+    print(hello('world'))
