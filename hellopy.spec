@@ -31,6 +31,7 @@ python2 setup.py test
 
 %files
 %python2_sitelib/*
+%{_bindir}/hello
 
 %changelog
 * Mon Dec 18 2017 Daniel Hilst Selli <daniel@versatushpc.com.br> 0.0.10-1
