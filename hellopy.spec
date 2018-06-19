@@ -1,5 +1,5 @@
 Name:           hellopy
-Version:        0.0.11
+Version:        0.0.12
 Release:        1%{?dist}
 Summary:        Testing.
 
@@ -34,6 +34,9 @@ python2 setup.py test
 %{_bindir}/hello
 
 %changelog
+* Tue Jun 19 2018 Daniel Hilst Selli <daniel@gmail.com> 0.0.12-1
+- 
+
 * Mon Jun 18 2018 Daniel Hilst Selli <daniel@gmail.com> 0.0.11-1
 - Add bin/hello script to spec %%files (daniel@gmail.com)
 - Add bin/hello. (daniel@gmail.com)
